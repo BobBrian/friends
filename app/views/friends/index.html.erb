@@ -10,7 +10,8 @@
         <th scope="col">Email</th>
         <th scope="col">Phone</th>
         <th scope="col">Twitter</th>
-        <th scope="col"></th>
+        <th scope="col">UseID</th>
+        <th scope="col" colspan="3"></th>
       </tr>
     </thead>
     <tbody>
@@ -22,6 +23,7 @@
           <td> <%= friend.email %> </td>
           <td> <%= friend.phone %> </td>
           <td> <%= friend.twitter %> </td>
+          <td> <%= friend.user_id %> </td>
           <td> <%= link_to "Show", friend %> </td>
       </tr>
     <% end %>	
